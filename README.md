@@ -34,7 +34,7 @@ The Crawler Library is a generic site crawler that provides basic services to tr
         await File.WriteAllTextAsync(filePath, content);
         Console.WriteLine("Page saved: " + fileName);
     }
-}
+   }
 3. Add Your Action To ActionType Enum
    ```csharp
    public enum ActionType
